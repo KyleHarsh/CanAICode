@@ -1,2 +1,3 @@
 # Can AI Code?
-This is a repository of functions written by chat bots to see if if we can better understand why they sometimes botch the job.
+
+We have seen that AI can be a great help to a programmer, but can and AI replace them? This repo contains several basic simulations relating to artifical intelligence controlled survailence drones.
