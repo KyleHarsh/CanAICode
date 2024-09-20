@@ -1,0 +1,8 @@
+load "helloWorld.ath"
+
+define (fib n) :=
+    check {
+        (less? n 2) => 1
+    | else
+        => (plus (fib (minus n 1)) (fib (minus n 2)))
+    }
