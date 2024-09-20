@@ -1,0 +1,7 @@
+
+domain X
+declare a: X
+declare b: X
+assert* given1 := (a ==> b)
+assert* given2 := a
+conclude aImpB := b
