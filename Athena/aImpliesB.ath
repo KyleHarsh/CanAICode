@@ -1,7 +1,8 @@
 
-domain X
-declare a: X
-declare b: X
-assert* given1 := (a ==> b)
-assert* given2 := a
-conclude aImpB := b
+#domain X
+#declare a: X
+#declare b: X
+assume given1 := A
+assert given2 := A ==> B
+#conclude b
+    (!mp given2 given1)
